@@ -1,7 +1,14 @@
 <h1>Inflation Calculator</h1>
 
 <form action="">
+  Start price:<br>
+  <%= text_field_tag 'start_price', params["start_price"]%>
+  <br><br>
+
   From:<br>
+
+
+
   <%= date_field_tag 'start_date', params["start_date"] %>
 <!--   <input type="date" name="from_date" value="Date"> -->
   <br><br>
@@ -18,5 +25,9 @@
   <br>
   <%= submit_tag "Submit" %>
 <!--   <input type="submit" value="Submit"> -->
-  <%= @new_inflation %>
 </form>
+
+<h1>Results</h1>
+
+<%= params.to_json %>
+<%= @new_inflation %>
