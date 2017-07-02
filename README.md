@@ -1,24 +1,5 @@
-# README
+# Inflation Calculation
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Calculates average inflation UK house price based on user input start price, from date, end date and region (borough).
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Download the repo to your local environment, cd into it and type `rails server`. Open `localhost:3000` on your browser to view.
