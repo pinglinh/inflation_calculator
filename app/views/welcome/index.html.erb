@@ -1,33 +1,35 @@
 <h1>Inflation Calculator</h1>
 
 <form action="">
-  Start price:<br>
+
+  Start price:
+  <br>
   <%= text_field_tag 'start_price', params["start_price"]%>
-  <br><br>
+  <br>
+  <br>
 
-  From:<br>
-
-
-
+  From:
+  <br>
   <%= date_field_tag 'start_date', params["start_date"] %>
-<!--   <input type="date" name="from_date" value="Date"> -->
-  <br><br>
+  <br>
+  <br>
 
-  To:<br>
+  To:
+  <br>
   <%= date_field_tag 'end_date', params["end_date"] %>
-<!--   <input type="date" name="to_date" value="Date"> -->
-  <br><br>
+  <br>
+  <br>
 
   Region:
-<!--   list_of_region is in welcome_helper.rb -->
+  <br>
   <%= select_tag "region", options_for_select(list_of_region, params["region"]) %>
   <br>
   <br>
+
   <%= submit_tag "Submit" %>
-<!--   <input type="submit" value="Submit"> -->
+
 </form>
 
 <h1>Results</h1>
 
-<%= params.to_json %>
-<%= @new_inflation %>
+£<%= @new_price %>
