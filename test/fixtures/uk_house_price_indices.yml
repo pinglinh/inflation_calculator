@@ -1,9 +1,51 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
-  text: MyText
+  region: Aberdeenshire
+  date: 2006-06-01
+  price_index: 64
 
 two:
-  title: MyString
-  text: MyText
+  region: Aberdeenshire
+  date: 2009-06-01
+  price_index: 82
+
+three:
+  region: Scotland
+  date: 2015-09-01
+  price_index: 45
+
+four:
+  region: Scotland
+  date: 2017-01-01
+  price_index: 55
+
+five:
+  region: London
+  date: 2002-09-01
+  price_index: 60
+
+six:
+  region: London
+  date: 2011-03-01
+  price_index: 87
+
+seven:
+  region: Salford
+  date: 2013-02-01
+  price_index: 45
+
+eight:
+  region: Salford
+  date: 2010-04-01
+  price_index: 40
+
+nine:
+  region: Rochford
+  date: 2014-12-01
+  price_index: 56
+
+ten:
+  region: Rochford
+  date: 2008-10-01
+  price_index: 34
