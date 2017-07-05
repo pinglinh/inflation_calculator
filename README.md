@@ -65,3 +65,24 @@ must add a test for this feature
 
 clean up this readme
 
+
+if you do bundle exec it will run the version from the GEMFILE rather than the stuff u have installed in your local env
+
+
+
+MAKE SURE YOU HAVE RUBY 2.3 INSTALLED 
+
+
+1. Save the zip file to your local environment
+2. CD into the directory where you saved it
+3. Run bundle install
+4. Run `bundle exec rails db:migrate RAILS_ENV=development` (creating empty tables in the database with the column names set in schema.rb)
+5 The next step may take 5 or so mins to do:
+run `bundle exec rails csv:import`
+6. WAIT
+7. Once finished run `bundle exec rails server`
+8. go to localhost:3000 to view this
+9. type in the price you bought your house at 
+10. select 1st of the month only for from and to dates
+11. Select region 
+12. click sbumit and this will tell you the estimated inflated price for your house 
