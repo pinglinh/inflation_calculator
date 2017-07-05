@@ -15,7 +15,6 @@ ActiveRecord::Schema.define(version: 20170702165928) do
   create_table "uk_house_price_indices", force: :cascade do |t|
     t.date "date"
     t.string "region"
-    t.float "price"
     t.float "price_index"
   end
 
