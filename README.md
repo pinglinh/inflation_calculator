@@ -10,7 +10,7 @@ MAKE SURE YOU HAVE RUBY 2.3~ INSTALLED
 2. CD (change directory) into the directory where you saved it
 3. Run `bundle install`
 4. Run `bundle exec rails db:migrate RAILS_ENV=development` (creating empty tables in the database with the column names set in schema.rb)
-5 The next step may take 5 or so mins to do:
+5. The next step may take 5 or so mins to do:
     run `bundle exec rails csv:import`
 6. WAIT
 7. Once finished run `bundle exec rails server`
