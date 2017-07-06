@@ -8,7 +8,7 @@ MAKE SURE YOU HAVE RUBY 2.3~ INSTALLED
 
 1. Save the zip file to your local environment
 2. CD (change directory) into the directory where you saved it
-3. Run bundle install
+3. Run `bundle install`
 4. Run `bundle exec rails db:migrate RAILS_ENV=development` (creating empty tables in the database with the column names set in schema.rb)
 5 The next step may take 5 or so mins to do:
     run `bundle exec rails csv:import`
@@ -16,9 +16,9 @@ MAKE SURE YOU HAVE RUBY 2.3~ INSTALLED
 7. Once finished run `bundle exec rails server`
 8. Type `localhost:3000` into your local browser to view the web service
 9. Type in the price you bought your house at originally
-10. Select 1st of the month only for from and to dates
-11. Select region
-12. Click sbumit and this will tell you the estimated inflated price for your house
+10. Select 1st of the month only for the `from` and `to` dates
+11. Select your `region`
+12. Click `submit` and this will tell you the estimated inflated price for your house
 
 # Future Improvements
 
