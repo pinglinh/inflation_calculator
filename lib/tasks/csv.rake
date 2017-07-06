@@ -5,7 +5,6 @@ namespace :csv do
   desc "Imports UkHousePriceIndex csv file"
   task import: :environment do
     url = 'http://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/UK-HPI-full-file-2016-05.csv'
-    # path = 'UK-HPI-full-file-2016-05.csv'
 
     UkHousePriceIndex.delete_all
     CSV.foreach(open(url), :headers => true) do |row|
