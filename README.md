@@ -59,7 +59,7 @@ then run `UkHousePriceIndex.count`
 
 Please note that if you choose a date from and to it needs choose the 1st day of the month and not any other day...the year in range is _________
 
-Otherwise this will not work 
+Otherwise this will not work
 
 must add a test for this feature
 
@@ -70,7 +70,7 @@ if you do bundle exec it will run the version from the GEMFILE rather than the s
 
 
 
-MAKE SURE YOU HAVE RUBY 2.3 INSTALLED 
+MAKE SURE YOU HAVE RUBY 2.3 INSTALLED
 
 
 1. Save the zip file to your local environment
@@ -82,7 +82,14 @@ run `bundle exec rails csv:import`
 6. WAIT
 7. Once finished run `bundle exec rails server`
 8. go to localhost:3000 to view this
-9. type in the price you bought your house at 
+9. type in the price you bought your house at
 10. select 1st of the month only for from and to dates
-11. Select region 
-12. click sbumit and this will tell you the estimated inflated price for your house 
+11. Select region
+12. click sbumit and this will tell you the estimated inflated price for your house
+
+TO IMPROVE
+
+1. Make user only choose month and year as the date always has to be first of the month and this can cause accessibility issues
+2. Add CSS
+3. Add animation
+4. PROBLEM!!! Not all regions have the same date range for the index therefore maybe make the user choose the region first and alert them of the date range first before they input the dates.
