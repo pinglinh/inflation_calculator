@@ -4,7 +4,7 @@ A simple web service which calculates average inflation UK house price based on 
 
 # Instructions
 
-MAKE SURE YOU HAVE RUBY 2.3~ INSTALLED
+**MAKE SURE YOU HAVE RUBY 2.3~ INSTALLED**
 
 1. Save the zip file to your local environment
 2. CD (change directory) into the directory where you saved it
