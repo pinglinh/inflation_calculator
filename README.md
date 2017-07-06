@@ -2,7 +2,7 @@
 
 A simple web service which calculates average inflation UK house price based on user input start price, from date and to date and region (borough).
 
-# Instructions
+### Instructions
 
 **MAKE SURE YOU HAVE RUBY 2.3~ INSTALLED**
 
@@ -20,7 +20,7 @@ A simple web service which calculates average inflation UK house price based on 
 11. Select your `region`
 12. Click `submit` and this will tell you the estimated inflated price for your house
 
-# Future Improvements
+### Future Improvements
 
 1. Make the user only choose month and year as the date always has to be first of the month and this can cause accessibility issues
 2. Add CSS - responsive design
